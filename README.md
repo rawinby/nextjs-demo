@@ -1,2 +1,0 @@
-# nextjs-demo
-nextjs-demo
