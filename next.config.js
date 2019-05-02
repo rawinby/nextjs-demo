@@ -1,11 +1,12 @@
-const withSass = require('@zeit/next-sass');
-const withCSS = require('@zeit/next-css');
+const withSass = require('@zeit/next-sass')
+const withCSS = require('@zeit/next-css')
+const withImages = require('next-images')
 
 require('dotenv').config()
 const Dotenv = require('dotenv-webpack')
 const path = require('path')
 
-module.exports = withCSS(withSass({
+module.exports = withImages(withCSS(withSass({
 
     exportPathMap: function() {
         return {
@@ -36,4 +37,4 @@ module.exports = withCSS(withSass({
         return cfg;
     }
 
-}))
+})))
