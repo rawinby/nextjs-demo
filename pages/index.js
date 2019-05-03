@@ -25,8 +25,6 @@ class Index extends Component {
     // clearInterval(this.timer)
   }
 
-
-
   render () {
     return (
       <Layout>

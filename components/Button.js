@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { getNews } from '../actions'
+import { getNews } from '../redux/actions'
 
 let styles = {
   backgroundColor: 'HotPink ',

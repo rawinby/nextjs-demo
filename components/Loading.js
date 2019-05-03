@@ -5,10 +5,9 @@ let Laoading = ({ loading }) => (
 
   loading ?
     <div style={{ textAlign: 'center' }}>
-      <img src={require('./loading_spinner.gif')} alt='loading' />
-      <h1>LOADING</h1>
-    </div> :
-    null
+      <img src={require('../assets/images/loading_spinner.gif')} alt='loading' />
+      <h2>LOADING</h2>
+    </div> : null
 );
 
 const mapStateToProps = (state) => ({
